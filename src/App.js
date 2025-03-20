@@ -72,7 +72,7 @@ export default function App() {
           <WatchedMovieList watched={watched} />
         </Box>
 
-        <StarRating />
+        <StarRating maxRating={5} />
       </Main>
     </>
   );
